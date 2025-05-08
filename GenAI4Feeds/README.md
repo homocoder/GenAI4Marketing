@@ -191,12 +191,14 @@ vertexai.init(project='YOUR_GCP_PROJECT_ID', location='YOUR_GCP_LOCATION')
 
 Product data should be prepared as a Pandas DataFrame.
 
+Example Query: This query leverages the output data from Shopping Insider. See: [Shopping Insider](https://github.com/google/shopping_insider "Shopping Insider") is a Google project that provides a dataset of product listings and their performance metrics on Google Shopping. It is designed to help retailers and advertisers understand how their products are performing on the platform and to optimize their listings for better visibility and sales.
+
 #### From BigQuery
 ```python
 from google.cloud import bigquery
 # ... (configure BigQuery client as shown in the Configuration section) ...
 
-# Example Query: This query leverages the output data from Shopping Insider. See: [Shopping Insider](https://github.com/google/shopping_insider "Shopping Insider") is a Google project that provides a dataset of product listings and their performance metrics on Google Shopping. It is designed to help retailers and advertisers understand how their products are performing on the platform and to optimize their listings for better visibility and sales.
+# Example Query:
 query = f"""
 SELECT
   offer_id as sku, title, brand, description, item_url,
