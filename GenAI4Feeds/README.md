@@ -1,4 +1,4 @@
-# GenAI4Feeds: AI-Powered Product Feed Optimization
+# GenAI4Feeds: AI-Powered Product Feed Optimization 
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![Google Vertex AI](https://img.shields.io/badge/Google%20Vertex%20AI-Gemini%20Integrated-blueviolet)
